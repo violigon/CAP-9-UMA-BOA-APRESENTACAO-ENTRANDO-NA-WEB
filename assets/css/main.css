@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Ropa+Sans");
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
 	margin: 0;
 	padding: 0;
@@ -20,14 +21,6 @@
 }
 #logo img {
 	height: 80px;
-}
-#logo p {
-	padding-left: -50px;
-	color: #fff;
-	font-family: "Luckiest Guy", sans-serif;
-	text-decoration: none;
-	float: right;
-	font-size: 24px;
 }
 #menu {
 	width: 100%;
@@ -74,20 +67,27 @@
 	text-align: center;
 	box-shadow: 0px 0.2px 10px black;
 }
+.footer p {
+	padding-top: 5px;
+	font-family: "Roboto", sans-serif;
+}
 
 table img {
-	height: 80px;
+	height: 200px;
 	border-radius: 8px;
+	max-width: 300px;
 }
 #Galeria img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 150px;
+	max-height: 400px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
-	width: 150px;
+}
+#Galeria div {
+	padding-bottom: 50px;
 }
 figcaption {
 	display: block;
@@ -95,67 +95,20 @@ figcaption {
 	margin-right: auto;
 	text-align: center;
 }
-#Contato {
+
+#Contato div {
+	padding: 50px;
+	max-width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#formulario {
+	background-color: rgb(236, 236, 236);
+	border-radius: 10px;
 	padding-bottom: 50px;
 }
 
-form {
-	/* Centralizar o formulário na pagina */
-	margin: 0 auto;
-	width: 400px;
-	/* Ver o esboço do formulário */
-	padding: 1em;
-	border: 1px solid #ccc;
-	border-radius: 1em;
-}
-
-form div + div {
-	margin-top: 1em;
-}
-
-label {
-	/* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
-	display: inline-block;
-	width: 90px;
-	text-align: right;
-}
-
-input,
-textarea {
-	/* 
-  Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
-	   Por padrão, as áreas de texto possuem a mesma fonte */
-	font: 1em sans-serif;
-
-	/* Para dar o mesmo tamanho a todos os campos de texto*/
-	width: 300px;
-	box-sizing: border-box;
-
-	/* Para harmonizar o aspecto e a sensação da borda do campo de texto */
-	border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-	/* Para dar um pouco de destaque aos elementos ativos*/
-	border-color: #000;
-}
-
-textarea {
-	/* Para alinhar corretamente campos de texto multilinha com seus rótulos */
-	vertical-align: top;
-
-	/* Para dar espaço suficiente para digitar algum texto */
-	height: 5em;
-}
-
-.button {
-	/* Para posicionar os botões na mesma posição dos campos de texto */
-	padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
-}
-
-button {
-	/* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
-	   entre os rótulos e seus campos de texto*/
-	margin-left: 0.5em;
+#Contato textarea {
+	min-height: 100px;
 }

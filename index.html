@@ -3,7 +3,12 @@
 	<head>
 		<meta charset="”UTF-8”" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title></title>
+		<title>H Produções</title>
+		<link
+			rel="icon"
+			href="https://pa1.narvii.com/6636/3054660fdbac2cf2aa09c58b00bb5ce736ca4987_00.gif"
+			type="imagem/gif"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -27,7 +32,6 @@
 								alt="logo H Produções"
 								title="H Produções"
 							/>
-							<p>Produções</p>
 						</a>
 					</div>
 					<ul>
@@ -61,33 +65,35 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>001</td>
-								<td>Notebook i7 8GB Branco</td>
+								<td>Estudio</td>
+								<td>Ofereçemos alguns estúdios com estrutura completa</td>
 								<td>
 									<img
-										src="images/logo.jpeg"
+										src="images/estudio.jpg"
 										alt="logo H Produções"
 										title="H Produções"
 									/>
 								</td>
 							</tr>
 							<tr>
-								<td>002</td>
-								<td>Caneta Esferográfica Azul</td>
+								<td>Equipamentos</td>
+								<td>Equipamentos de audiovisual de última geração</td>
 								<td>
 									<img
-										src="images/logo.jpeg"
+										src="images/equipamentos.png"
 										alt="logo H Produções"
 										title="H Produções"
 									/>
 								</td>
 							</tr>
 							<tr>
-								<td>003</td>
-								<td>Caneta Esferográfica Azul</td>
+								<td>Mentoria</td>
+								<td>
+									Oferecemos mentoria e treinamento para influencers iniciantes
+								</td>
 								<td>
 									<img
-										src="images/logo.jpeg"
+										src="images/mentoria.jpg"
 										alt="logo H Produções"
 										title="H Produções"
 									/>
@@ -98,67 +104,86 @@
 				</div>
 				<div id="Galeria">
 					<h2>Galeria</h2>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
-					<img
-						src="images/logo.jpeg"
-						alt="logo H Produções"
-						title="H Produções"
-					/>
-					<figcaption>Legenda para a imagem impressionante</figcaption>
+					<div id="img1">
+						<img
+							src="images/mentoria_2.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>Mentoria para jovens influencers</figcaption>
+					</div>
+					<div id="img2">
+						<img
+							src="images/equipamentos_2.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>Equipamentos de última geração</figcaption>
+					</div>
+					<div id="img3">
+						<img
+							src="images/podcast.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>Oferecemos estudios de podcast</figcaption>
+					</div>
+					<div id="img4">
+						<img
+							src="images/consultoria.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>
+							Oferecemos consultoria para montar o seu home studio
+						</figcaption>
+					</div>
+					<div id="img5">
+						<img
+							src="images/canto.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>Aulas de tecnica vocal</figcaption>
+					</div>
+					<div id="img6">
+						<img
+							src="images/teatro.jpg"
+							alt="logo H Produções"
+							title="H Produções"
+						/>
+						<figcaption>
+							Aulas de teatro para melhorar na atuações dos vídeos
+						</figcaption>
+					</div>
 				</div>
 				<div id="Contato">
 					<h2>Contato</h2>
-					<form action="/formulario-contato" method="post">
-						<div>
-							<label for="nome">Nome:</label>
-							<input type="texto" id="nome" name="nome_usuario" />
+					<div id="formulario">
+						<form action="/contato" method="post">
+							<div>
+								<label for="nome">Nome:</label>
+								<input type="text" id="nome" name="nome_usuario" />
+							</div>
+							<div>
+								<label for="email">E-mail:</label>
+								<input type="email" id="email" name="email_usuario" />
+							</div>
+							<div>
+								<label for="texto">Texto:</label>
+								<textarea id="texto" name="texto_usuario"></textarea>
+							</div>
+						</form>
+						<div class="button">
+							<button type="submit">Enviar</button>
 						</div>
-						<div>
-							<label for="email">E-mail:</label>
-							<input type="email" id="email" name="email_usuario" />
-						</div>
-						<div>
-							<label for="texto">Texto:</label>
-							<textarea id="texto" name="texto_usuario"></textarea>
-						</div>
-					</form>
-					<div class="button">
-						<button type="submit">Enviar</button>
 					</div>
+					<div id="espacamento"></div>
 				</div>
 			</div>
 		</div>
 		<div class="footer">
-			<p>Footer</p>
+			<p>Vinícius Oliveira Gonçalves RM86538 - FIAP 2022</p>
 		</div>
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
