@@ -112,3 +112,6 @@ figcaption {
 #Contato textarea {
 	min-height: 100px;
 }
+.button {
+	float: left;
+}
