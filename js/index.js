@@ -18,6 +18,7 @@ form.on("submit", async event => {
     });
 
     const json = await request.json();
-
+    alert("Formulário enviado com sucesso!")
+    document.location.reload(true);
     console.log({ json });
 });
