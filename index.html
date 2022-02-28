@@ -162,7 +162,7 @@
 				<div id="Contato">
 					<h2>Contato</h2>
 					<div id="formulario">
-						<form action="/contato" method="post">
+						<form id="form">
 							<fieldset>
 								<div>
 									<label for="nome">Nome:</label>
@@ -199,25 +199,26 @@
 										<input
 											type="radio"
 											id="elo"
-											name="elogio"
+											name="Assunto"
 											value="elogios"
+											checked
 										/>
 										<label for="elo">Elogios</label>
 										<input
 											type="radio"
 											id="rec"
-											name="reclamar"
+											name="Assunto"
 											value="reclamacoes"
 										/>
 										<label for="rec">Reclamações</label>
 										<input
 											type="radio"
 											id="perg"
-											name="perguntar"
+											name="Assunto"
 											value="perguntas"
 										/>
 										<label for="perg">Perguntas</label>
-										<input type="radio" id="out" name="outro" value="outros" />
+										<input type="radio" id="out" name="Assunto" value="outros" />
 										<label for="out">Outros</label>
 									</div>
 								</div>
@@ -262,5 +263,6 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
