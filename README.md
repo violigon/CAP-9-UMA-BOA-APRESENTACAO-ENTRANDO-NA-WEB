@@ -1,5 +1,11 @@
 # CAP-9-UMA-BOA-APRESENTACAO-ENTRANDO-NA-WEB
 
+## Link do repositório do github
+https://github.com/violigon/CAP-9-UMA-BOA-APRESENTACAO-ENTRANDO-NA-WEB
+
+## Link do deploy na web
+https://violigon.github.io/CAP-9-UMA-BOA-APRESENTACAO-ENTRANDO-NA-WEB/
+
 Agora que já sabemos montar uma página HTML utilizando os seus recursos mais comuns, chegou a hora de você colocar a mão na massa e desenvolver uma página inicial para a produtora Fip. Para isso use:
 
 1- Um sistema de navegação para links dentro da própria página, os links deverão direcionar o internauta para as seguintes seções: sobre, serviços, galeria de imagens e contato. Faça a formatação CSS que deixe o menu bem atrativo. (1,0 ponto)
